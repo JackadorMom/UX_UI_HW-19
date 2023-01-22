@@ -1,0 +1,254 @@
+
+
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 0;       
+}
+
+.topnav-items a {
+    float: right;
+    display: block;
+    color: #FF9CE3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;    
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #FF9CE3;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid #FF9CE3;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 50px;
+}
+
+.header-font {
+    width: 40%;
+    height: fix-content;
+    margin-top: 100px;
+    margin-left: 80px;
+    
+}
+
+.job-title, .location {
+    color: #3EB7FB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: fix-content;
+    height: fix-content;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-left: 80px;
+}
+
+.location {
+    color: #bcbcbc;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro-description {
+    color: #696969;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-right: 55%;
+    margin-bottom: 15px;
+}
+
+.resume-button {
+    background-color: #3EB7FB;
+    border: none;
+    color:white;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 80px;
+    transition: background-color 1s, color 1s;
+}
+
+.resume-button:hover {
+    background-color: #FF9CE3;
+    color: white;
+
+}
+
+.resume-button:active {
+    opacity: 0.5;
+}
+
+.social-button {
+    background-color: white;
+    border-color: #3EB7FB;
+    border-style: solid;
+    border-width: 1px;
+    color: #3EB7FB;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 1s, color 1s;
+}
+
+.social-button:hover {
+    background-color: #3EB7FB;
+    color: white;
+}
+
+.social-button:active {
+    opacity: 0.5;
+}
+
+.me-pic {
+    float: right;
+    width: 30%;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.w3-container {
+    margin-bottom: 10%; 
+    margin-top: 10%;  
+}
+
+.my-work{
+    color: #FF9CE3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: fix-content;
+    height: fix-content;
+    line-height: 150px;
+    margin-left: 80px;       
+}
+
+
+.footer {
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    background-color: #ffeaf9;
+}
+
+
+.get-in-touch {
+    width: 20%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.f-1 , .f-2 {
+    color: #ff94e1;
+    font-size: 20px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px
+
+}
+
+.f-1 {
+    line-height: 40px;
+    margin-right: 50px;
+}
+
+.social-icons {
+    width: 20%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin-left: 65px;
+    margin-right: 50px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+}
+
+.thumbnail {
+    width: 95%;
+}
+
+.brand-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.work-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.work-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: 'Montserrat' , sans-serif;
+    color: #606060; 
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+}
+
+.work-type, .work-stats {
+    font-size: 14px;
+    font-family: 'Montserrat' , sans-serif;
+    color: gray;
+    line-height: 10px;
+
+}
+
+.work-type {
+    margin-bottom: 6px;
+}
+
+.work-preview {
+    margin-top: 50px;
+}
+
+
+
